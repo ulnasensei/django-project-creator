@@ -1,6 +1,6 @@
 {
-  "name": "django-project-creator",
-  "version": "1.0.0",
+  "name": "create-django",
+  "version": "1.0.1",
   "description": "Create Django Apps with a single line of code instantly.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "django",
     "script"
   ],
-  "author": "canocalir && ulnasensei",
+  "author": "ulnasensei && canocalir",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ulnasensei/django-project-creator/issues"
