@@ -1,6 +1,6 @@
 {
-  "name": "create-django",
-  "version": "1.0.1",
+  "name": "djangoblink",
+  "version": "1.0.0",
   "description": "Create Django Apps with a single line of code instantly.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ulnasensei/django-project-creator.git"
   },
   "bin":{
-    "create-django": "index.js"
+    "djangoblink": "index.js"
   },
   "keywords": [
     "django",
