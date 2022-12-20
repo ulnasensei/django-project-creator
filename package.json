@@ -1,6 +1,6 @@
 {
   "name": "djangoblink",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Create Django Apps with a single line of code instantly.",
   "main": "index.js",
   "scripts": {

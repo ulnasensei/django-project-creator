@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 const shell = require('shelljs')
-shell.exec('./createdjango')
+shell.exec('createdjango')
