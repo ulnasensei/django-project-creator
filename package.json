@@ -1,6 +1,6 @@
 {
   "name": "djangoblink",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Create Django Apps with a single line of code instantly.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ulnasensei/django-project-creator.git"
   },
-  "bin":{
+  "bin": {
     "djangoblink": "index.js"
   },
   "keywords": [
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/ulnasensei/django-project-creator/issues"
   },
-  "homepage": "https://github.com/ulnasensei/django-project-creator#readme"
+  "homepage": "https://github.com/ulnasensei/django-project-creator#readme",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
 }
