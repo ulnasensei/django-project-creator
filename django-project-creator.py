@@ -299,6 +299,14 @@ def home(request):
         logger.fatal(ex)
         exit(1)
 
+#Database Selection
+    try:
+        print(f"{bcolors.OKCYAN}Database selection initializing... {bcolors.ENDC}")
+    except Exception as ex:
+        pass    
+
+###################
+
     try:
         print(f"{bcolors.OKCYAN}Starting Django migration...{bcolors.ENDC}")
         if windows:
