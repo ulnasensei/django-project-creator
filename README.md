@@ -8,6 +8,6 @@ python django-project-creator.py <project-name>
 
 ## Supported platforms:
 
--   Linux (Bash/ZSH)
--   macOS (Not tested, but I assume it will work.)
+-   Linux
+-   macOS
 -   Windows (CMD/PowerShell/Git-Bash)
