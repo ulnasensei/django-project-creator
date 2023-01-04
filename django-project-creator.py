@@ -335,16 +335,16 @@ def main():
         exit(1)
 
     try:
-        print(f"{bcolors.OKCYAN}Adding app 'core' to settings.py...{bcolors.ENDC}")
+        print(f"{bcolors.OKCYAN}Adding app 'main' to settings.py...{bcolors.ENDC}")
         with open("./core/settings.py", "r") as file:
             filedata = file.read()
 
         filedata = filedata.replace(
             "'django.contrib.staticfiles',",
-            "'django.contrib.staticfiles',\n\n    # my apps\n    'core',",
+            "'django.contrib.staticfiles',\n\n    # my apps\n    'main',",
         ).replace(
             '"django.contrib.staticfiles",',
-            '"django.contrib.staticfiles",\n\n    # my apps\n    "core",',
+            '"django.contrib.staticfiles",\n\n    # my apps\n    "main",',
         )
 
         with open("./core/settings.py", "w") as file:
